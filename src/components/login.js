@@ -18,7 +18,7 @@ function Login() {
     if (Object.keys(formErrors).length === 0 && isSubmit) {
       console.log(loginEmail, loginPassword);
     }
-  }, [formErrors, isSubmit]);
+  }, [formErrors, isSubmit,loginEmail,loginPassword]);
 
   const validate = (values) => {
     const errors = {};
