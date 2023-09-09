@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.error{
+    color: red;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 25vw;
+}
+.signform-container {
+    background-color: #fff;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40vw;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"]
+ {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#signup-form{
+    width: 100%;
+}
+#signup-link, #login-link{
+    margin-top: 5%;
+    color: gray;
+    font-weight: 100;
+}
+#signup-link a,#login-link a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+#signup-link:hover a,#login-link:hover a{
+    text-decoration: underline;
+}
+button {
+    width: 20%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    left: 40%;
+}
+#show-login-password{
+    position: fixed;
+   padding-top: 10px;
+   padding-left: 10px;
+   cursor: pointer;
+}
+#show-signup-password{
+    padding-left: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+section :link{
+    text-decoration: none;
+    color: black;
+    margin: 140px;
+    font-size: 20px;
+   
+}
+section h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.remember-me label{
+ font-size: 15px;
+ padding-left: 7px;
+}
+.remember-me{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+#radio1 input{
+    margin: 0 10px
+}
+
